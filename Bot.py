@@ -15,7 +15,7 @@ darkblue = '\033[34m'
 white = '\033[00m'
 text = "  DiGi BOT"
 
-bot = Robot_Rubika("jxrdtdvflbvgcexeyoyufywpobqsxdeb")
+bot = Robot_Rubika("gqlrnqmjticuhgnvurlzgrkbnuttudrk")
 os.system("clear")
 txt = pyfiglet.figlet_format(text,font='slant')
 print(red+txt)
