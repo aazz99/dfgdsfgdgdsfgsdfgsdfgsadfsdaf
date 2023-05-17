@@ -21,7 +21,7 @@ txt = pyfiglet.figlet_format(text,font='slant')
 print(red+txt)
 print(darkblue+"_"*67+white)
 
-group_guid="g0CpJxb0b602da9b9c5d435ad40ba88e"
+group_guid="g0CX4C50c1f13d1305474e7676936ad3"
 bot_guid="u0FYcW80eff89a2c1b439888683994a1"
 
 #برای اضافه کردن فهش به لاین 153 بروید...!
