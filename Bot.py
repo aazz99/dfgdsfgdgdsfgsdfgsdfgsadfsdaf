@@ -488,7 +488,7 @@ while 1:
 								elif msg.get("text").startswith("سازندت")or msg.get("text").startswith("سازنده") or msg.get("text").startswith("خرید") :
 									if msg.get('author_object_guid') != bot_guid:
 										try:
-											bot.sendMessage(group_guid,f'سازنده من (@ID_Coder) است جهت خرید ربات پیام بدهید', message_id=msg.get("message_id"))
+											bot.sendMessage(group_guid,f'خالق من (@ID_Coder) است جهت خرید ربات پیام بدهید', message_id=msg.get("message_id"))
 										except: pass
 								elif msg.get("text").startswith("پنل")or msg.get("text").startswith("/Panel") or msg.get("text").startswith("panel") or msg.get("text").startswith("دستورات") :
 									if msg.get('author_object_guid') != bot_guid:
