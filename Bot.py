@@ -21,7 +21,7 @@ txt = pyfiglet.figlet_format(text,font='slant')
 print(red+txt)
 print(darkblue+"_"*67+white)
 
-group_guid="g0CX4C50c1f13d1305474e7676936ad3"
+group_guid="g0DGcrM075e66733b6ca51ca6a50a2a8"
 bot_guid="u0FYcW80eff89a2c1b439888683994a1"
 
 #برای اضافه کردن فهش به لاین 153 بروید...!
@@ -367,7 +367,7 @@ while 1:
 										bot.sendMessage(group_guid,f"✅ با موفقیت قطع شد",message_id=msg.get("message_id"))
 									else:
 										bot.sendMessage(group_guid,f"این دستور مخصوص ادمین ها است.🌚",message_id=msg.get("message_id"))
-								elif msg.get("text").startswith("قفل گیف خاموش") or msg.get("text").startswith("/LOCKP") or msg.get("text").startswith("Unlock_Gif"):
+								elif msg.get("text").startswith("قفل گیف خاموش") or msg.get("text").startswith("/LOCKG") or msg.get("text").startswith("Unlock_Gif"):
 									if msg.get('author_object_guid') in admins:
 										if lock_Gif != False:
 											lock_Gif=False
@@ -381,7 +381,7 @@ while 1:
 											bot.sendMessage(group_guid,f"قفل عکس با موفقیت فعال شد😄🚶‍♂",message_id=msg.get("message_id"))
 										else:
 											bot.sendMessage(group_guid,f"قفل عکس از قبل فعال بود🌚",message_id=msg.get("message_id"))
-								elif msg.get("text").startswith("قفل عکس خاموش") or msg.get("text").startswith("unlock_image") or msg.get("text").startswith("Unlock_Image"):
+								elif msg.get("text").startswith("قفل عکس خاموش") or msg.get("text").startswith("/LOCKP") or msg.get("text").startswith("Unlock_Image"):
 									if msg.get('author_object_guid') in admins:
 										if lock_Image != False:
 											lock_Image=False
